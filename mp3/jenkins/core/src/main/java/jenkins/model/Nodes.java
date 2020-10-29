@@ -118,6 +118,11 @@ public class Nodes implements Saveable {
         save();
     }
 
+    private static void updateAndTrim(Jenkins jenkins) {
+        jenkins.updateComputerList();
+        jenkins.trimLabels();
+    }
+
     /**
      * Adds a node. If a node of the same name already exists then that node will be replaced.
      *
