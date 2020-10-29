@@ -153,7 +153,9 @@ public class Connection {
             AlgorithmParameterGenerator paramGen = AlgorithmParameterGenerator.getInstance("DH");
             paramGen.init(keySize);
 
-            keyPair = generateKeyPairWithSpec(paramGen);
+            KeyPairGenerator dh = KeyPairGenerator.getInstance("DH");
+            dh.initialize(paramGen.generateParameters().getParameterSpec(DHParameterSpec.class));
+            keyPair = dh.generateKeyPair();
 
             // send a half and get a half
             writeKey(keyPair.getPublic());
@@ -161,7 +163,9 @@ public class Connection {
         } else {
             otherHalf = KeyFactory.getInstance("DH").generatePublic(readKey());
 
-            keyPair = generateKeyPairWithSpec(paramGen);
+            KeyPairGenerator keyPairGen = KeyPairGenerator.getInstance("DH");
+            keyPairGen.initialize(((DHPublicKey) otherHalf).getParams());
+            keyPair = keyPairGen.generateKeyPair();
 
             // send a half and get a half
             writeKey(keyPair.getPublic());
@@ -172,14 +176,6 @@ public class Connection {
         ka.doPhase(otherHalf, true);
 
         return ka;
-    }
-
-    private KeyPair generateKeyPairWithSpec(AlgorithmParameterGenerator paramGen) {
-        KeyPair keyPair;
-        KeyPairGenerator dh = KeyPairGenerator.getInstance("DH");
-        dh.initialize(paramGen.generateParameters().getParameterSpec(DHParameterSpec.class));
-        keyPair = dh.generateKeyPair();
-        return keyPair;
     }
 
     /**
