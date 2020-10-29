@@ -11,7 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe68f57a-4272-4c7a-a24c-7c6674601c47" name="Default Changelist" comment="q1">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mp3/jenkins/cli/hs_err_pid11122.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mp3/jenkins/hs_err_pid10218.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/jenkins/cli/jenkins-cli-version.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/jenkins/cli/jenkins-cli-version.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/cli-1.610-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/cli-1.610-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/TEST-hudson.cli.ConnectionMockTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/TEST-hudson.cli.ConnectionMockTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/TEST-hudson.cli.ConnectionTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/TEST-hudson.cli.PrivateKeyProviderTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/hudson.cli.ConnectionMockTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/hudson.cli.ConnectionMockTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/hudson.cli.ConnectionTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/surefire-reports/hudson.cli.PrivateKeyProviderTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/hudson/model/UpdateCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/hudson/model/UpdateCenter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603967983166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test2">
+      <created>1603968794965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603968794965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Test" />
+    <MESSAGE value="Test2" />
     <MESSAGE value="q1" />
     <option name="LAST_COMMIT_MESSAGE" value="q1" />
   </component>
@@ -94,10 +116,10 @@
       <screen x="0" y="27" width="1024" height="741" />
     </state>
     <state x="107" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1024.741@0.27.1024.741" timestamp="1603962247205" />
-    <state x="373" y="173" width="524" height="478" key="extract.method.dialog" timestamp="1603968694953">
+    <state x="373" y="173" width="534" height="478" key="extract.method.dialog" timestamp="1603970163773">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="373" y="173" width="524" height="478" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1603968694953" />
+    <state x="373" y="173" width="534" height="478" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1603970163773" />
     <state x="0" y="27" width="1014" height="741" key="new project wizard" timestamp="1603959818921">
       <screen x="0" y="27" width="1024" height="741" />
     </state>
