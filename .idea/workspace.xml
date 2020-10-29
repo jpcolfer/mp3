@@ -49,7 +49,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603962229592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test">
+      <created>1603967983166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603967983166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,6 +73,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
+    <MESSAGE value="Test" />
     <MESSAGE value="q1" />
     <option name="LAST_COMMIT_MESSAGE" value="q1" />
   </component>
@@ -86,10 +94,10 @@
       <screen x="0" y="27" width="1024" height="741" />
     </state>
     <state x="107" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1024.741@0.27.1024.741" timestamp="1603962247205" />
-    <state x="373" y="173" width="524" height="478" key="extract.method.dialog" timestamp="1603967785924">
+    <state x="373" y="173" width="524" height="478" key="extract.method.dialog" timestamp="1603968694953">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="373" y="173" width="524" height="478" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1603967785924" />
+    <state x="373" y="173" width="524" height="478" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1603968694953" />
     <state x="0" y="27" width="1014" height="741" key="new project wizard" timestamp="1603959818921">
       <screen x="0" y="27" width="1024" height="741" />
     </state>
