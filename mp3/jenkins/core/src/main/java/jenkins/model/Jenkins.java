@@ -4212,6 +4212,11 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
      */
     public static final Authentication ANONYMOUS;
 
+    private static void updateAndTrim(Jenkins jenkins) {
+        jenkins.updateComputerList();
+        jenkins.trimLabels();
+    }
+
     static {
         try {
             ANONYMOUS = new AnonymousAuthenticationToken(
