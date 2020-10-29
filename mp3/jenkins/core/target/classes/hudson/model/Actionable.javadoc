@@ -1,2 +1,2 @@
-#Thu Oct 29 08:20:16 EDT 2020
+#Thu Oct 29 08:31:54 EDT 2020
 getAllActions=\ Gets all actions, transient or persistent.\n {@link \#getActions} is supplemented with anything contributed by {@link TransientActionFactory}.\n @return an unmodifiable, possible empty list\n @since 1.548\n
