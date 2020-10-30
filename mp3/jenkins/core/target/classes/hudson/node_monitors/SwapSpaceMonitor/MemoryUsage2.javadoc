@@ -1,4 +1,4 @@
-#Fri Oct 30 04:05:23 EDT 2020
+#Fri Oct 30 04:26:40 EDT 2020
 getTotalSwapSpace=\ Total number of swap space in bytes.\n
 getAvailableSwapSpace=\ Available swap space in bytes.\n
 getTotalPhysicalMemory=\ Total physical memory of the system, in bytes.\n
