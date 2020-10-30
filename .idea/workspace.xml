@@ -18,31 +18,285 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe68f57a-4272-4c7a-a24c-7c6674601c47" name="Default Changelist" comment="q5">
+    <list default="true" id="fe68f57a-4272-4c7a-a24c-7c6674601c47" name="Default Changelist" comment="Revert">
+      <change afterPath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/jenkins/model/jenkins/model/Jenkins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/hudson/cli/Connection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/hudson/cli/client/Messages.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/jenkins/cli/jenkins-cli-version.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/cli/target/classes/jenkins/cli/jenkins-cli-version.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/cli-1.610-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/cli-1.610-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/cli/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/.ssh/id_dsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/.ssh/id_dsa.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/.ssh/id_rsa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/.ssh/id_rsa.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/ConnectionMockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/ConnectionTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/ConnectionTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/ConnectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/PrivateKeyProviderTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mp3/jenkins/cli/target/test-classes/hudson/cli/PrivateKeyProviderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/jenkins/model/Jenkins.java" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/jenkins/model/Jenkins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/jenkins/model/Nodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/src/main/java/jenkins/model/Nodes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginManager.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginManager.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginWrapper.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginWrapper.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginWrapper/Dependency.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/PluginWrapper/Dependency.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/ProxyConfiguration.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/ProxyConfiguration.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/fsp/WorkspaceSnapshotSCM.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/fsp/WorkspaceSnapshotSCM.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/logging/LogRecorder/Target.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/logging/LogRecorder/Target.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/markup/EscapedMarkupFormatter.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/markup/EscapedMarkupFormatter.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractBuild.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractBuild.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractProject.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractProject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractProject.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AbstractProject.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Actionable.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Actionable.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AllView.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/AllView.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterValue.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterValue.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/BooleanParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/RemoteCause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/RemoteCause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UpstreamCause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UpstreamCause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UserCause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UserCause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UserIdCause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Cause/UserIdCause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/CauseAction.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/CauseAction.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ChoiceParameterDefinition.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ChoiceParameterDefinition.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ChoiceParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ChoiceParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Computer.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Computer.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ComputerSet.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ComputerSet.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Executor.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Executor.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/FileParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/FileParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/FileParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/FileParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint$BuildPtr.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint$BuildPtr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/BuildPtr.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/BuildPtr.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/Range.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/Range.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/RangeItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/RangeItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/RangeSet.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Fingerprint/RangeSet.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/HealthReport.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/HealthReport.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JDK.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JDK.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Job.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Job.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Job.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Job.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JobParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JobParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JobParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/JobParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Label.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Label.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ListView.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ListView.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/LoadStatistics.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/LoadStatistics.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/LoadStatistics/LoadStatisticsSnapshot.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/LoadStatistics/LoadStatisticsSnapshot.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MultiStageTimeSeries.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MultiStageTimeSeries.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MyView.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MyView.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MyViewsProperty.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/MyViewsProperty.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Node.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Node.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/OverallLoadStatistics.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/OverallLoadStatistics.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParameterDefinition.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParameterDefinition.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParameterValue.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParameterValue.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParametersAction.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParametersAction.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParametersDefinitionProperty.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ParametersDefinitionProperty.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/PasswordParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/PasswordParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/PasswordParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/PasswordParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ProxyView.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ProxyView.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue$Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue$Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/BuildableItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/BuildableItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/Item.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/Item.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/LeftItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/LeftItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/NotWaitingItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/NotWaitingItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/WaitingItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Queue/WaitingItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Run.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Run.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Run/Artifact.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/Run/Artifact.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterDefinition.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterDefinition.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterValue.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterValue.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/RunParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterValue.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterValue.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/StringParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TextParameterDefinition.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TextParameterDefinition.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TextParameterValue.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TextParameterValue.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TimeSeries.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TimeSeries.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TreeView.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/TreeView.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/DownloadJob.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/DownloadJob.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/DownloadJob/InstallationStatus.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/DownloadJob/InstallationStatus.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/InstallationJob.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/InstallationJob.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob/Pending.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob/Pending.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob/RestartJenkinsJobStatus.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/RestartJenkinsJob/RestartJenkinsJobStatus.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/UpdateCenterJob.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateCenter/UpdateCenterJob.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Entry.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Entry.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Plugin.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Plugin.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Plugin.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/UpdateSite/Plugin.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/User.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/User.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/AsynchPeople/People.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/AsynchPeople/People.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/People.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/People.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/UserInfo.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/View/UserInfo.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ViewGroupMixIn.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/ViewGroupMixIn.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/hudson-version.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/hudson-version.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/labels/LabelAtom.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/model/labels/LabelAtom.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/DiskSpaceMonitor.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/DiskSpaceMonitor.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/DiskSpaceMonitorDescriptor/DiskSpace.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/DiskSpaceMonitorDescriptor/DiskSpace.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/NodeMonitor.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/NodeMonitor.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/ResponseTimeMonitor/Data.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/ResponseTimeMonitor/Data.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/SwapSpaceMonitor/MemoryUsage2.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/SwapSpaceMonitor/MemoryUsage2.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/TemporarySpaceMonitor.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/node_monitors/TemporarySpaceMonitor.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/ChangeLogSet.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/ChangeLogSet.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/ChangeLogSet/Entry.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/ChangeLogSet/Entry.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/SCM.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/scm/SCM.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/Search/Item.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/Search/Item.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/Search/Result.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/Search/Result.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/UserSearchProperty.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/search/UserSearchProperty.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/HudsonPrivateSecurityRealm.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/HudsonPrivateSecurityRealm.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/WhoAmI.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/WhoAmI.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/csrf/CrumbIssuer.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/csrf/CrumbIssuer.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/csrf/DefaultCrumbIssuer.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/security/csrf/DefaultCrumbIssuer.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/CommandConnector.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/CommandConnector.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/CommandLauncher.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/CommandLauncher.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/DumbSlave.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/DumbSlave.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/EnvironmentVariablesNodeProperty.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/EnvironmentVariablesNodeProperty.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/EnvironmentVariablesNodeProperty/Entry.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/EnvironmentVariablesNodeProperty/Entry.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/JNLPLauncher.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/JNLPLauncher.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/ByCLI.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/ByCLI.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/ChannelTermination.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/ChannelTermination.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/SimpleOfflineCause.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/OfflineCause/SimpleOfflineCause.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/RetentionStrategy/Always.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/RetentionStrategy/Always.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/RetentionStrategy/Demand.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/RetentionStrategy/Demand.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/SimpleScheduledRetentionStrategy.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/slaves/SimpleScheduledRetentionStrategy.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/ArtifactArchiver.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/ArtifactArchiver.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/BatchFile.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/BatchFile.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/BuildTrigger.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/BuildTrigger.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Fingerprinter.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Fingerprinter.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/LogRotator.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/LogRotator.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven/MavenInstallation.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven/MavenInstallation.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven/MavenInstaller.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Maven/MavenInstaller.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Shell.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tasks/Shell.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/BatchCommandInstaller.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/BatchCommandInstaller.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/CommandInstaller.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/CommandInstaller.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/InstallSourceProperty.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/InstallSourceProperty.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/JDKInstaller.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/JDKInstaller.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ToolLocationNodeProperty.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ToolLocationNodeProperty.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ToolLocationNodeProperty/ToolLocation.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ToolLocationNodeProperty/ToolLocation.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ZipExtractionInstaller.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/tools/ZipExtractionInstaller.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/triggers/SCMTrigger.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/triggers/SCMTrigger.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/triggers/TimerTrigger.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/triggers/TimerTrigger.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ClockDifference.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ClockDifference.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ListBoxModel.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ListBoxModel.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ListBoxModel/Option.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/ListBoxModel/Option.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/PersistedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/util/PersistedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/BuildButtonColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/BuildButtonColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/DefaultMyViewsTabBar.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/DefaultMyViewsTabBar.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/DefaultViewsTabBar.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/DefaultViewsTabBar.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/JobColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/JobColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastDurationColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastDurationColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastFailureColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastFailureColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastStableColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastStableColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastSuccessColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/LastSuccessColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/ListViewColumn.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/ListViewColumn.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/StatusColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/StatusColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/WeatherColumn.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/hudson/views/WeatherColumn.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/CauseOfInterruption.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/CauseOfInterruption.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseInsensitive.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseInsensitive.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseSensitive.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseSensitive.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseSensitiveEmailAddress.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/IdStrategy/CaseSensitiveEmailAddress.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/InterruptedBuildAction.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/InterruptedBuildAction.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$19.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$20.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$21.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$22.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$23.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$24.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$25.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$DescriptorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$DescriptorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterComputer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterRestartNotifyier$RestartCause.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterRestartNotifyier$RestartCause.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterRestartNotifyier.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins$MasterRestartNotifyier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/Jenkins.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ModelObjectWithContextMenu/ContextMenu.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ModelObjectWithContextMenu/ContextMenu.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ModelObjectWithContextMenu/MenuItem.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ModelObjectWithContextMenu/MenuItem.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ProjectNamingStrategy/DefaultProjectNamingStrategy.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ProjectNamingStrategy/DefaultProjectNamingStrategy.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ProjectNamingStrategy/PatternProjectNamingStrategy.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/ProjectNamingStrategy/PatternProjectNamingStrategy.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/jenkins-version.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/model/jenkins-version.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/DefaultGlobalSettingsProvider.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/DefaultGlobalSettingsProvider.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/DefaultSettingsProvider.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/DefaultSettingsProvider.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/FilePathGlobalSettingsProvider.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/FilePathGlobalSettingsProvider.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/FilePathSettingsProvider.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/mvn/FilePathSettingsProvider.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/scm/DefaultSCMCheckoutStrategyImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/scm/DefaultSCMCheckoutStrategyImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/security/ApiTokenProperty.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/security/ApiTokenProperty.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/triggers/ReverseBuildTrigger.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/triggers/ReverseBuildTrigger.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/util/ServerTcpPort.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/classes/jenkins/util/ServerTcpPort.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/ExtractChangeLogParser/ExtractChangeLogEntry.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/ExtractChangeLogParser/ExtractChangeLogEntry.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/ExtractChangeLogParser/FileInZip.javadoc" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/ExtractChangeLogParser/FileInZip.javadoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/SleepBuilder.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/classes/org/jvnet/hudson/test/SleepBuilder.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/jenkins-test-harness-1.610-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/jenkins-test-harness-1.610-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/surefire-reports/TEST-hudson.model.NodeTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/surefire-reports/hudson.model.NodeTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/GroovyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/GroovyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/RelativePathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/RelativePathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/BuildCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/BuildCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/CLIActionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/CLIActionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/EnableJobCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/EnableJobCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/SetBuildParameterCommandTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/cli/SetBuildParameterCommandTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/markup/MarkupFormatterTest/DummyMarkupImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/markup/MarkupFormatterTest/DummyMarkupImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractBuildTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractBuildTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractItemTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractItemTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractProjectTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/AbstractProjectTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/EnvironmentContributorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/EnvironmentContributorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/JobPropertyTest/JobPropertyWithConfigImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/JobPropertyTest/JobPropertyWithConfigImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/SlaveTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/SlaveTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/ViewPropertyTest/ViewPropertyImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/ViewPropertyTest/ViewPropertyImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/ViewTest/PropertyImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/ViewTest/PropertyImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/labels/LabelAtomPropertyTest/LabelAtomPropertyImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/model/labels/LabelAtomPropertyTest/LabelAtomPropertyImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/security/TokenBasedRememberMeServices2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/security/TokenBasedRememberMeServices2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/slaves/NodePropertyTest/PropertyImpl.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/slaves/NodePropertyTest/PropertyImpl.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/triggers/TriggerStartTest/MockTrigger.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/triggers/TriggerStartTest/MockTrigger.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest$InduceBootFailure.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest$InduceBootFailure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/BootFailureTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/TextFileTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/util/TextFileTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/widgets/HistoryWidgetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/hudson/widgets/HistoryWidgetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/bugs/Jenkins19124Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/bugs/Jenkins19124Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/model/BuildDiscarderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/model/BuildDiscarderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/model/PeepholePermalinkTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/model/PeepholePermalinkTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/scm/SCMCheckoutStrategyTest/TestSCMCheckoutStrategy.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/jenkins/scm/SCMCheckoutStrategyTest/TestSCMCheckoutStrategy.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ApplyButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ApplyButtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ComboBoxTest/CompoundField.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ComboBoxTest/CompoundField.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ComboBoxTest/CompoundFieldComboBoxBuilder.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/ComboBoxTest/CompoundFieldComboBoxBuilder.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/EnumSetTest.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/EnumSetTest.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatablePropertyTest/ExcitingObject.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatablePropertyTest/ExcitingObject.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Apple.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Apple.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Banana.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Banana.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Foo.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Foo.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/FooList.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/FooList.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Fruity.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RepeatableTest/Fruity.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Beer.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Beer.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Coke.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Coke.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Nested.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/RowVisibilityGroupTest/Nested.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/TextAreaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/TextAreaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/TextAreaTest/TestBuilder.stapler" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/lib/form/TextAreaTest/TestBuilder.stapler" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/org/jvnet/hudson/test/SleepBuilderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/test/target/test-classes/org/jvnet/hudson/test/SleepBuilderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins.war" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/jenkins-cli.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/jenkins-cli.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/lib/cli-1.610-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/lib/cli-1.610-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/lib/jenkins-core-1.610-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/war/target/jenkins/WEB-INF/lib/jenkins-core-1.610-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mp3/jenkins/war/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mp3/jenkins/war/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,15 +316,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="extract.method.default.visibility" value="public" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveMembersDialog.RECENTS_KEY">
-      <recent name="mp3.jenkins.core.src.main.java.jenkins.model.Jenkins" />
       <recent name="jenkins.model.Jenkins" />
+      <recent name="mp3.jenkins.core.src.main.java.jenkins.model.Jenkins" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -145,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604003454583</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Revert">
+      <created>1604004090991</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604004090991</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,21 +432,22 @@
     <MESSAGE value="q2" />
     <MESSAGE value="q3" />
     <MESSAGE value="q5" />
-    <option name="LAST_COMMIT_MESSAGE" value="q5" />
+    <MESSAGE value="Revert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="367" y="204" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604002460379">
+    <state x="367" y="204" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1604010380170">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="367" y="204" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1280.773@0.27.1280.773" timestamp="1604002460379" />
+    <state x="367" y="204" width="525" height="416" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1280.773@0.27.1280.773" timestamp="1604010380170" />
     <state x="343" y="82" width="585" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1603970392731">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="343" y="82" width="585" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1280.773@0.27.1280.773" timestamp="1603970392731" />
-    <state x="600" y="177" width="571" height="376" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1604002461624">
+    <state x="302" y="139" width="571" height="376" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog" timestamp="1604010411464">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="600" y="177" width="571" height="376" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.27.1280.773@0.27.1280.773" timestamp="1604002461624" />
+    <state x="302" y="139" width="571" height="376" key="#com.intellij.refactoring.move.moveMembers.MoveMembersDialog/0.27.1280.773@0.27.1280.773" timestamp="1604010411464" />
     <state x="295" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603962139221">
       <screen x="0" y="27" width="1024" height="741" />
     </state>
@@ -198,6 +460,22 @@
       <screen x="0" y="27" width="1024" height="741" />
     </state>
     <state x="381" y="83" width="252" height="626" key="Github.UntrackedFilesDialog/0.27.1024.741@0.27.1024.741" timestamp="1603958213525" />
+    <state width="1234" height="186" key="GridCell.Tab.0.bottom" timestamp="1604005189659">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state width="1234" height="186" key="GridCell.Tab.0.bottom/0.27.1280.773@0.27.1280.773" timestamp="1604005189659" />
+    <state width="1234" height="186" key="GridCell.Tab.0.center" timestamp="1604005189658">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state width="1234" height="186" key="GridCell.Tab.0.center/0.27.1280.773@0.27.1280.773" timestamp="1604005189658" />
+    <state width="1234" height="186" key="GridCell.Tab.0.left" timestamp="1604005189614">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state width="1234" height="186" key="GridCell.Tab.0.left/0.27.1280.773@0.27.1280.773" timestamp="1604005189614" />
+    <state width="1234" height="186" key="GridCell.Tab.0.right" timestamp="1604005189658">
+      <screen x="0" y="27" width="1280" height="773" />
+    </state>
+    <state width="1234" height="186" key="GridCell.Tab.0.right/0.27.1280.773@0.27.1280.773" timestamp="1604005189658" />
     <state x="446" y="349" width="377" height="126" key="ReplaceDuplicatesPrompt" timestamp="1603997970514">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
@@ -211,18 +489,18 @@
     </state>
     <state x="107" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1024.741@0.27.1024.741" timestamp="1603962247205" />
     <state x="134" y="137" width="800" height="528" key="Vcs.Push.Dialog.v2/0.27.1280.773@0.27.1280.773" timestamp="1603999077635" />
-    <state x="669" y="210" width="414" height="475" key="chooseDestDirectoryDialog" timestamp="1604002385974">
+    <state x="669" y="210" width="414" height="475" key="chooseDestDirectoryDialog" timestamp="1604010404273">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="669" y="210" width="414" height="475" key="chooseDestDirectoryDialog/0.27.1280.773@0.27.1280.773" timestamp="1604002385974" />
+    <state x="669" y="210" width="414" height="475" key="chooseDestDirectoryDialog/0.27.1280.773@0.27.1280.773" timestamp="1604010404273" />
     <state x="421" y="327" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604003889187">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
     <state x="421" y="327" width="428" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1280.773@0.27.1280.773" timestamp="1604003889187" />
-    <state x="373" y="173" width="554" height="500" key="extract.method.dialog" timestamp="1604003274681">
+    <state x="373" y="173" width="554" height="500" key="extract.method.dialog" timestamp="1604012560727">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
-    <state x="373" y="173" width="554" height="500" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1604003274681" />
+    <state x="373" y="173" width="554" height="500" key="extract.method.dialog/0.27.1280.773@0.27.1280.773" timestamp="1604012560727" />
     <state x="0" y="27" width="1014" height="741" key="new project wizard" timestamp="1603970318407">
       <screen x="0" y="27" width="1280" height="773" />
     </state>
