@@ -1,0 +1,5 @@
+Question 1: This code smell is Duplicated Code, and in order to remove the duplicated statements you can create a function to be called instead of the duplicated code.
+
+Question 2: This code smell is Feature Envy, and in order to remove this smell you can refactor the code so that the Jenkins class (which the repeated statements call) have these two calls as a function instead.
+
+Question 3: You can eliminate the repeated code from lines 249-254 by replacing it and its repetitions with a for loop that runs said code four times.
